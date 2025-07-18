@@ -1,5 +1,15 @@
-/* шрифты */
-/* colors */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/roboto/Roboto-VariableFont_wdth\,wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/forum/Forum-Regular.ttf") format("truetype");
+}
 :root {
   --text-dark: #000000;
   --text-light: #ffffff;
@@ -10,7 +20,19 @@
   --background-dark: #030303;
   --background-dark-red: #710707;
   --background-font-gold: #9d8665;
+  --second-family: "Forum", serif;
+  --font-family: "Roboto", sans-serif;
 }
 * {
   box-sizing: border-box;
+  background-color: black;
+}
+h1 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 112%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-light);
 }
