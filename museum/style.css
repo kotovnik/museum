@@ -45,12 +45,61 @@ html {
   height: 100%;
 }
 .container {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
+  height: 100%;
 }
 /* HEADER */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-bg {
+  display: flex;
+  background-color: var(--background-dark);
+  height: 150px;
+}
 /* LOGO */
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  width: 200px;
+}
+.header-logo {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-light);
+}
 /* NAVIGATION */
+.nav {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin-left: 55px;
+  margin-right: 0;
+  padding: 0;
+}
+.nav-link {
+  font-family: var(--font-family);
+  font-weight: 100;
+  font-size: 22px;
+  letter-spacing: 0.09em;
+  color: var(--text-light);
+  text-decoration: none;
+}
 /* WELCOME */
 h1 {
   font-family: var(--second-family);
