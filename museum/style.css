@@ -1,4 +1,16 @@
 /* шрифты */
+/* colors */
+:root {
+  --text-dark: #000000;
+  --text-light: #ffffff;
+  --text-hover: #9d8665;
+  --text-active: #7e6c51;
+  --pagination-unvisited: #d2b183;
+  --pagination-hover: #9d8665;
+  --background-dark: #030303;
+  --background-dark-red: #710707;
+  --background-font-gold: #9d8665;
+}
 * {
   box-sizing: border-box;
 }
