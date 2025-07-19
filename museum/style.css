@@ -136,9 +136,10 @@ html {
 }
 .welcome-wrap {
   display: flex;
+  justify-content: space-between;
   height: 750px;
   width: 100%;
-  background-image: url(../assets/img/monna-liza.png);
+  background-image: url(../assets/img/mona-liza.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -175,6 +176,7 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
+  text-decoration: none;
   width: 360px;
   height: 75px;
   background-color: var(--background-dark-red);
@@ -187,7 +189,61 @@ html {
   font-size: 22px;
   line-height: 26px;
   letter-spacing: 2px;
-  color: #FFFFFF;
+  color: var(--text-light);
+}
+.welcome-pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1000;
+  width: 600px;
+  height: 120px;
+  right: 0px;
+  bottom: -92%;
+  background: var(--background-dark);
+  padding: 40px 75px;
+}
+.page-numbers {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.page {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: var(--text-light);
+}
+.btn-square {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.square {
+  width: 16px;
+  height: 16px;
+  background: var(--text-light);
+}
+.square-active {
+  background: var(--pagination-unvisited);
+}
+.arrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80px;
+  height: 8px;
+}
+.arrow-left,
+.arrow-right {
+  width: 30px;
+  height: 8px;
+  /* background: var(--text-light); */
 }
 /* EXPLORE */
 /* VIDEO */
