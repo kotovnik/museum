@@ -52,7 +52,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  background-color: black;
 }
 html {
   scroll-behavior: smooth;
@@ -71,6 +70,7 @@ html {
   height: 100%;
 }
 .container {
+  display: flex;
   width: 1440px;
   margin: 0 auto;
   height: 100%;
@@ -128,8 +128,30 @@ html {
   color: var(--text-light);
   text-decoration: none;
 }
+/* VISITING */
+.welcome-bg {
+  display: flex;
+  height: 810px;
+  background-color: var(--background-dark);
+}
+.welcome-wrap {
+  display: flex;
+  height: 750px;
+  width: 100%;
+  background-image: url(../assets/img/monna-liza.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  position: relative;
+}
 /* WELCOME */
-h1 {
+.welcome {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  width: 598px;
+}
+.title-h1 {
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 80px;
@@ -138,7 +160,35 @@ h1 {
   text-transform: uppercase;
   color: var(--text-light);
 }
-/* VISITING */
+.welcome-text {
+  margin: 27px auto 75px 0;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 2px;
+  color: var(--text-light);
+}
+.welcome-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 360px;
+  height: 75px;
+  background-color: var(--background-dark-red);
+  border-radius: 10px;
+}
+.welcome-btn-text {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
 /* EXPLORE */
 /* VIDEO */
 /* GALLERY */
