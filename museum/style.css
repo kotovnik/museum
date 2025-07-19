@@ -108,14 +108,16 @@ html {
 }
 .nav-list {
   display: flex;
+  justify-content: space-between;
   list-style: none;
+  width: 775px;
   padding: 0;
 }
 .nav-item {
   display: flex;
   align-items: center;
-  margin-left: 55px;
-  margin-right: 0;
+  /* margin-left: 55px;
+  margin-right: 0; */
   padding: 0;
 }
 .nav-link {
