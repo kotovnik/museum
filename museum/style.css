@@ -1,9 +1,35 @@
+/* ROBOTO */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../assets/fonts/roboto/static/Roboto-Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../assets/fonts/roboto/static/Roboto-Light.ttf") format("truetype");
+}
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../assets/fonts/roboto/Roboto-VariableFont_wdth\,wght.ttf") format("truetype");
+  src: url("../assets/fonts/roboto/static/Roboto-Regular.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../assets/fonts/roboto/static/Roboto-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/roboto/static/Roboto-Bold.ttf") format("truetype");
+}
+/* FORUM */
 @font-face {
   font-family: "Forum";
   font-style: normal;
