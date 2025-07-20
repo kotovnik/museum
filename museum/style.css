@@ -41,6 +41,7 @@
   --text-light: #ffffff;
   --text-hover: #9d8665;
   --text-active: #7e6c51;
+  --text-span: #CAAA7D;
   --background-light: #ffffff;
   --pagination-unvisited: #d2b183;
   --pagination-hover: #9d8665;
@@ -349,6 +350,56 @@ html {
 .explore-wrap {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+.explore-article {
+  display: flex;
+  width: 720px;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  padding-right: 60px;
+  gap: 25px;
+}
+.explore-title-h2 {
+  font-family: var(--second-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--text-light);
+  margin-bottom: 80px;
+}
+.explore-text {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  color: var(--text-light);
+}
+.span-text {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  color: var(--text-span);
+}
+.explore-image-wrap {
+  width: 720px;
+  height: 700px;
+  background: url(.jpg);
+  border-radius: 0px;
+  margin-top: 15px;
+  background-image: url(../assets/img/explore-slider/after.jpg)
+}
+.explore-img-before {
+  display: flex;
+}
+.circle {
+
 }
 /* VIDEO */
 /* GALLERY */
