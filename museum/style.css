@@ -388,9 +388,10 @@ html {
   color: var(--text-span);
 }
 .explore-image-wrap {
+  display: flex;
+  flex-direction: row;
   width: 720px;
   height: 700px;
-  background: url(.jpg);
   border-radius: 0px;
   margin-top: 15px;
   background-image: url(../assets/img/explore-slider/after.jpg)
@@ -398,8 +399,8 @@ html {
 .explore-img-before {
   display: flex;
 }
-.circle {
-
+.slide-bar {
+  margin-left: -19px;
 }
 /* VIDEO */
 /* GALLERY */
