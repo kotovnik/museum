@@ -340,6 +340,16 @@ html {
   color: var(--text-dark)
 }
 /* EXPLORE */
+.explore-bg {
+  display: flex;
+  padding: 75px 0;
+  height: 865px;
+  background-color: var(--background-dark);
+}
+.explore-wrap {
+  display: flex;
+  flex-direction: row;
+}
 /* VIDEO */
 /* GALLERY */
 /* TICKETS */
