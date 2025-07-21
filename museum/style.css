@@ -403,6 +403,40 @@ html {
   margin-left: -19px;
 }
 /* VIDEO */
+.video-bg {
+  display: flex;
+  padding: 75px 0;
+  height: 1396px;
+  background-color: var(--background-light);
+  flex-direction: column;
+}
+.video-article {
+  display: flex;
+  flex-direction: row;
+}
+.title-video {
+  margin-right: 114px;
+  font-family: var(--second-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--background-font-gold);
+  margin-bottom: 25px;
+}
+.text-video {
+  width: 50%;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  display: flex;
+  margin-top: 10px;
+  color: var(--text-dark);
+}
 /* GALLERY */
 /* TICKETS */
 /* CONTACTS */
