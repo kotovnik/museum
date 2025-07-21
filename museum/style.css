@@ -535,6 +535,55 @@ html {
   width: 200px;
 }
 /* GALLERY */
+.gallery-bg {
+  display: flex;
+  height: 2200px;
+  overflow: hidden;
+  background-color: var(--background-dark);
+}
+.title-gallery {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  font-family: var(--second-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--text-light);
+}
+.gallery-wrap-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.gallery-gradient {
+  position: relative;
+  z-index: 1000;
+  width: 1440px;
+  height: 360px;
+  left: 70px;
+  bottom: 360px;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0) 0.56%, #000000 100.56%);
+}
+.gallery-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  gap: 24px;
+}
+.gallery-image {
+  width: 456px;
+}
+.gallery-1,
+.gallery-3 {
+  margin-top: 50px;
+}
+.gallery-1,
+.gallery-2 {
+  overflow: hidden;
+}
 /* TICKETS */
 /* CONTACTS */
 /* FOOTER */
