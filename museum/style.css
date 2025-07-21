@@ -808,10 +808,20 @@ html {
   margin-right: -7px;
 }
 .social-wrapper {
+  display: flex;
+  align-content: center;
+  justify-content: center;
   border-radius: 50px;
   border: 1px solid var(--grey);
   width: 48px;
   height: 48px;
+}
+.social-svg {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  align-self: center;
+  object-fit: contain;
 }
 
 
