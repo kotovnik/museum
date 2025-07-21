@@ -538,7 +538,6 @@ html {
 .gallery-bg {
   display: flex;
   height: 2200px;
-  overflow: hidden;
   background-color: var(--background-dark);
 }
 .title-gallery {
@@ -557,6 +556,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  overflow: hidden;
 }
 .gallery-gradient {
   position: relative;
@@ -565,6 +565,7 @@ html {
   height: 360px;
   left: 70px;
   bottom: 360px;
+  margin-bottom: -360px;
   background: linear-gradient(180deg, rgba(255, 0, 0, 0) 0.56%, #000000 100.56%);
 }
 .gallery-image-wrapper {
@@ -580,11 +581,24 @@ html {
 .gallery-3 {
   margin-top: 50px;
 }
-.gallery-1,
-.gallery-2 {
-  overflow: hidden;
-}
 /* TICKETS */
+.tickets-bg {
+  display: flex;
+  padding: 75px 0;
+  height: 893px;
+  background-color: var(--background-light);
+  flex-direction: column;
+}
+.tickets-title-h2 {
+font-family: var(--second-family);
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 90px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: var(--text-hover);
+}
 /* CONTACTS */
 /* FOOTER */
 
