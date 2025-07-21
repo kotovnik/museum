@@ -527,6 +527,13 @@ html {
     background-repeat: no-repeat;
   background-image: url(../assets/img/video/poster-mini-2.png);
 }
+.video-pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  width: 200px;
+}
 /* GALLERY */
 /* TICKETS */
 /* CONTACTS */
