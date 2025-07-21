@@ -413,6 +413,7 @@ html {
 .video-article {
   display: flex;
   flex-direction: row;
+  margin-bottom: 50px;
 }
 .title-video {
   margin-right: 114px;
@@ -436,6 +437,46 @@ html {
   display: flex;
   margin-top: 10px;
   color: var(--text-dark);
+}
+.play-icon {
+  position: relative;
+  left: -830px;
+  z-index: 1000;
+}
+.video-max {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.video-player-max {
+  display: flex;
+  flex-direction: row;
+  height: 85px;
+  background-color: #000000;
+}
+.play-video-player {
+  margin-left: 30px;
+  margin-right: 50px;
+}
+.point-progress-bar {
+  position: relative;
+  z-index: 1000;
+  margin-left: -6px;
+}
+.progress-bar-next {
+  margin-left: -6px;
+}
+.volume-control {
+  margin-left: 47px;
+}
+.volume-bar {
+  margin-left: 50px;
+}
+.fullscreen {
+  margin-left: 50px;
+}
+.video-mini {
+  margin-top: 40px;
 }
 /* GALLERY */
 /* TICKETS */
