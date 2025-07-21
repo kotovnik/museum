@@ -458,16 +458,8 @@ html {
   margin-left: 30px;
   margin-right: 50px;
 }
-.point-progress-bar {
-  position: relative;
-  z-index: 1000;
-  margin-left: -6px;
-}
-.progress-bar-next {
-  margin-left: -6px;
-}
 .volume-control {
-  margin-left: 47px;
+  margin-left: 49px;
 }
 .volume-bar {
   margin-left: 50px;
@@ -476,7 +468,64 @@ html {
   margin-left: 50px;
 }
 .video-mini {
+  display: flex;
   margin-top: 40px;
+  gap: 42px;
+}
+.video-mini-frame {
+  display: flex;
+  flex-direction: row;
+  width: 452px;
+  height: 254px;
+}
+.wrap-mini-player-controls {
+  display: flex;
+  flex-direction: row;
+  width: 452px;
+}
+.mona-liza-icon-svg {
+  height: 40px;
+  width: 40px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.title-mini-video {
+  white-space: nowrap;
+  margin: 20px auto auto 10px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  color: var(--text-light);
+}
+.youtube-play-icon {
+  position: relative;
+  top: 40%;
+  right: 42.5%;
+  width: 68px;
+  height: 48px;
+}
+.more-3 {
+  position: relative;
+  height: 16px;
+  width: 4px;
+  margin-top: 27px;
+  margin-right: -32px;
+}
+.mini-frame-1 {
+  background-repeat: no-repeat;
+  background-image: url(../assets/img/video/poster-mini-0.png);
+}
+.mini-frame-2 {
+  background-repeat: no-repeat;
+  background-image: url(../assets/img/video/poster-mini-1.png);
+}
+.mini-frame-3 {
+    background-repeat: no-repeat;
+  background-image: url(../assets/img/video/poster-mini-2.png);
 }
 /* GALLERY */
 /* TICKETS */
